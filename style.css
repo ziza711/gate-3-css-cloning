@@ -227,8 +227,8 @@ gap:10px;
  .card-photo2>img{
     height: 300px;
     width:500px;
-    border-radius:20px 20px 20px 20px;
-    /* border-bottom-left-radius: 20px; */
+    border-radius:20px ;
+    border-top-right-radius: 20px;
      
      padding-top: 20px;
      
@@ -241,11 +241,13 @@ gap:10px;
 
 
 
-.card-photo>img{
+.card-photo>img {
     width: 190px;
     height: 150px;
     border-radius: 20px;
      position: relative;
+     
+
 
 }
 .card-text{
@@ -322,7 +324,7 @@ h5{
     cursor:pointer;
 }
 .accommodation-photo{
-    width: 220px;
+    width: 320px;
     height: 296px;
     
     position: relative;
