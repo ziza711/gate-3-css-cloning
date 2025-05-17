@@ -1,0 +1,318 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.btn-download{
+    border-radius: 20px;
+    padding:15px;
+    border: 1px solid #eee;
+    background: transparent;
+    font-weight: 550;
+    position:relative;
+    margin-top:-20px;
+   margin-left: 300px;
+}
+.download-icon{
+    position:absolute;
+    top:15px;
+    right:-2px;
+    
+    
+}
+.logo{
+    margin-left: 15px;
+    margin-top: -20px;
+}
+.btn-download:hover{
+    background-color: #ecf3ff;
+    cursor: pointer;
+}
+.flex-container{
+    display:flex;
+    gap: 20px;
+    
+
+}
+ul>li{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 550;
+
+}
+.li-butttton{
+    margin-top: -10px;
+}
+ul>li:hover{
+    color: rgb(43, 161, 235);
+    cursor: pointer;
+}
+.section2{
+    background-image: url('Assets/bg1.jpeg');
+    background-size: cover;     
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 400px;
+    padding-top: 20%;
+    padding-left: 10%;
+    opacity: 0.9;
+
+    
+}
+.section2-content {
+color:white;
+font-size: 45px;
+font-weight: 600;
+opacity: 2;
+
+}
+.input{
+    border-radius: 5px;
+    border:1px solid #9ea0ad;
+    height: 50px;
+    margin: 10px;
+    width: 300px;
+    position: relative;
+    
+}
+.input-container{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    
+    height: 70px;
+    margin-right: 20px;
+
+    
+
+}
+.btn-search{
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    color: #ecf3ff;
+}
+.input-position1{
+    position: absolute;
+    display: flex;
+    left:5px;
+    top:10px;
+}
+.input-position1>i{
+    align-items: center;
+    margin-top: -200px;
+    margin-left: -600px;
+}
+.flex-column{
+    flex-direction:column;
+    display: flex;
+}
+
+
+.announce{
+    display: flex;
+    justify-content: space-between;
+    background-color: #191e3b;
+    padding:15px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 15px;
+    
+    
+
+
+}
+
+.flex-container > p {
+    color:#fff;
+    font-size: 20px;
+}
+
+.icon-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aed1f3;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+}
+.card-photo{
+    height: 800px;
+    width:250px;
+    margin-top: 30px;
+}
+.last-section{
+    display:flex;
+    gap:30px;
+    border-bottom: 3px solid #eeeeeec9;
+    
+    
+}
+.flex-container{
+    height: 100%;
+    width:80%;
+    margin-top: 30px;
+}
+
+
+
+.last-line{
+    margin-left: 80px;
+    font-weight: 1000;
+}
+
+
+.last-h6{
+direction: column;
+margin-top: 60px;
+color:#347be6;
+margin-left:-270px ;
+gap:10px;
+margin-bottom: 10px;
+}
+.last-h6:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.last-h5{
+margin-left:-170px ;
+margin-top: 60px;
+color:#347be6;
+}
+.last-h5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.last-h4{
+margin-left:-230px ;
+margin-top: 60px;
+color:#347be6;
+gap:10px;
+}
+.last-h4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.card-photo12{
+    display: flex;
+    
+
+    
+}
+
+
+.card-photo1{
+    background-image: url("./Assets/img7.jpeg");
+    display: inline-block;
+    height: 200px;
+    width:400px;
+    margin: 30px;
+    padding-top: 20%;
+    padding: 5%;
+    border-radius: 20px;
+}
+ .card-photo2{
+    background-image: url("./Assets/img7.jpeg" );
+    display: inline-block;
+    height: 200px;
+    width:400px;
+    margin: 30px;
+    padding-top: 20%;
+    padding: 5%;
+    border-radius: 20px;
+ }   
+   .card3 {
+    display: flex;
+    gap:30px;
+   } 
+
+
+
+.card-photo>img{
+    width: 190px;
+    height: 150px;
+    border-radius: 20px;
+     position: relative;
+
+}
+.card-tex{
+    position:absolute;
+    bottom: 50px;
+    left:2px;
+    background-image: url("./Assets/img2.jpeg");
+    background-position: center;
+    margin-top: -700px;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 700px;
+
+
+}
+
+h4{
+    margin-left: 20px;
+    font-weight: 900;
+    font-size: xx-large;
+    
+}
+h5{
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: x-large;
+    
+}
+.para{
+    margin-left: 40px;
+}
+.last-icon{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.sauna-card{
+    display:flex;
+    background-color:white;
+    border-radius:25px;
+    width: 30%;
+    height:80%;
+    padding:30px;
+    
+
+}
+.h5{
+    margin-top: 180px;
+    margin-left: -190px;
+}
+.section3-sauna{
+    background-image:url("./Assets/bg2.jpeg");
+    background-size: cover;     
+    background-repeat: no-repeat; 
+    background-position: center;
+    height:500px;
+    width:110%;
+    margin:35px;
+    border-radius:20px;
+    padding-top:200px;
+    padding-left:90px;
+    
+
+}
+.btn-sauna{
+    margin-top:-90px;
+    margin-left:30px;
+    border-radius:25px;
+    background-color: blue;
+    color:white;
+    padding:10px;
+    border-color:  blue;
+}
+.btn-sauna:hover{
+    background-color:darkblue;
+    cursor:pointer;
+}
